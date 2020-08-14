@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web development"/>
+    <title>Студия</title>    
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  
+  <body>
+   
+    <!--шапка сайта-->
+    <header>
+      <nav>
+       <a href="index.html" class="logo link"> <span class="web-color">Web</span> Studio </a>
+       
+       <ul class="nav list">
+         <li><a href="/Студия" class="nav-link link current">Студия</a></li>
+         <li><a href="/Портфолио" class="nav-link link">Портфолио</a></li>
+         <li><a href="/Контакты" class="nav-link link">Контакты</a></li>
+       </ul>
+      
+       <ul class="auth list">
+         <!--иконки конвертик и телефон потом заменить в CSS-->
+          <li> <img src="./images/smartphone.svg" alt="смартфон"> <a href="tel:380961111111" class="auth-link link">+38 096 111 11 11</a></li>
+          <li><img src="./images/envelope.svg" alt="конверт"> <a href="mailto:info@devstudio.com" class="auth-link link">info@devstudio.com</a></li>
+       </ul>
+      </nav>
+    </header>
+
+    <!--main-->
+    <main>
+
+      <!--1st section Hero-->
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <!--нужно прописать ссылки переходов на страницы-->
+        <a href="" class="button primary">Заказать услугу</a>
+        <img src="./images/header.jpg" alt="рабочий процесс" width="1600" height="600">
+      </section>  
+
+      <!--2nd section Features of work-->
+      <section class="section">
+
+        <!--h2 is hidden on page-->
+        <h2 class="section-title hidden">Features of work</h2>
+
+        <ul class="features list">
+          <li>
+            <!--потом заменить в CSS-->
+            <img class="features-img" src="./images/antenna1.svg" alt="антенна" width="70">
+            <h3 class="title">Внимание к деталям</h3>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          
+          <li>
+            <!--потом заменить в CSS-->
+            <img class="features-img" src="./images/clock1.svg" alt="часы" width="70">
+            <h3 class="title">Пунктуальность</h3>
+            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </li>
+
+          <li>
+            <!--потом заменить в CSS-->
+            <img class="features-img" src="./images/diagram1.svg" alt="диаграмма" width="70">
+            <h3 class="title">Планирование</h3>
+            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          </li>
+
+          <li>
+            <!--потом заменить в CSS-->
+            <img class="features-img" src="./images/astronaut1.svg" alt="астронавт" width="70">
+            <h3 class="title">Современные технологии</h3>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!--3d section What are we doing -->
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+
+        <!--нужно прописать ссылки переходов на страницы-->
+        <ul class="scope list">
+          <li><a href="" class="title">Десктопные приложения <img src="./images/desktop.jpg" alt="ноутбук" width="370" height="294"></a></li>
+          <li><a href="" class="title">Мобильные приложения <img src="./images/mobil.jpg" alt="смартфон" width="370" height="294"></a></li>
+          <li><a href="" class="title">Дизайнерские решения <img src="./images/design.jpg" alt="монитор" width="370" height="294"></a></li>
+        </ul>
+
+      </section>
+
+      <!--4d section Our team -->
+      <section class="section background">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team list">
+          <li> 
+            <img src="./images/nikolai.jpg" alt="фото Николая" width="270" height="260">
+            <h3 class="title">Николай Кучеренко</h3>
+            <p>Product Designer</p>
+            <!--нужно прописать ссылки переходов на соц. сети-->
+            <ul>
+              <!--потом в CSS сделать встроенные изображения-->
+              <li><a href="" aria-label="ссылка на Instagram">Instagram </a></li>
+              <li><a href="" aria-label="ссылка на Twitter">Twitter </a></li>
+              <li><a href="" aria-label="ссылка на Facebook">Facebook </a></li>
+              <li><a href="" aria-label="ссылка на Linkedin">Linkedin </a></li>              
+            </ul>            
+          </li>
+          
+          <li> 
+            <img src="./images/olga.jpg" alt="фото Ольги" width="270" height="260">
+            <h3 class="title">Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+            <!--нужно прописать ссылки переходов на соц. сети-->
+            <ul>
+              <!--потом в CSS сделать встроенные изображения-->
+              <li><a href="" aria-label="ссылка на Instagram">Instagram </a></li>
+              <li><a href="" aria-label="ссылка на Twitter">Twitter </a></li>
+              <li><a href="" aria-label="ссылка на Facebook">Facebook </a></li>
+              <li><a href="" aria-label="ссылка на Linkedin">Linkedin </a></li>
+            </ul>            
+          </li>
+
+          <li> 
+            <img src="./images/andrei.jpg" alt="фото Андрея" width="270" height="260">
+            <h3 class="title">Андрей Шевченко</h3>
+            <p>Marketing</p>
+            <!--нужно прописать ссылки переходов на соц. сети-->
+            <ul>
+              <!--потом в CSS сделать встроенные изображения-->
+              <li><a href="" aria-label="ссылка на Instagram">Instagram </a></li>
+              <li><a href="" aria-label="ссылка на Twitter">Twitter </a></li>
+              <li><a href="" aria-label="ссылка на Facebook">Facebook </a></li>
+              <li><a href="" aria-label="ссылка на Linkedin">Linkedin </a></li>
+            </ul>            
+          </li>
+
+          <li> 
+            <img src="./images/ivan.jpg" alt="фото Ивана" width="270" height="260">
+            <h3 class="title">Иван Николаев</h3>
+            <p>UI Designer</p>
+            <!--нужно прописать ссылки переходов на соц. сети-->
+            <ul>
+              <!--потом в CSS сделать встроенные изображения-->
+              <li><a href="" aria-label="ссылка на Instagram">Instagram </a></li>
+              <li><a href="" aria-label="ссылка на Twitter">Twitter </a></li>
+              <li><a href="" aria-label="ссылка на Facebook">Facebook </a></li>
+              <li><a href="" aria-label="ссылка на Linkedin">Linkedin </a></li>
+            </ul>            
+          </li>
+
+        </ul>
+      </section>
+
+      <!--5th section Regular clients-->
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="clients list">
+          <!--нужно прописать ссылки переходов на сайты компаний и потом в CSS сделать встроенные изображения-->
+          <li><a href=""> <img src="./images/client1.svg" alt="Логотип клиента 1" width="170"> </a></li>
+          <li><a href=""> <img src="./images/client2.svg" alt="Логотип клиента 2" width="170"> </a></li>
+          <li><a href=""> <img src="./images/client3.svg" alt="Логотип клиента 3" width="170"> </a></li>
+          <li><a href=""> <img src="./images/client4.svg" alt="Логотип клиента 4" width="170"> </a></li>
+          <li><a href=""> <img src="./images/client5.svg" alt="Логотип клиента 5" width="170"> </a></li>
+          <li><a href=""> <img src="./images/client6.svg" alt="Логотип клиента 6" width="170"> </a></li>
+        </ul>
+      </section>
+      
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+      <div>
+        <h3>Web Studio</h3> 
+        <address> 
+          г. Киев, пр-т Леси Украинки, 26 <br />
+          <a href="mailto:info@example.com">info@example.com</a> <br />
+          <a href="tel:380991111111">+38 099 111 11 11</a>
+        </address> 
+      </div>
+
+      <div>
+        <b>Присоединяйтесь</b>
+        <!--нужно прописать ссылки переходов на соц. сети студии и потом в CSS сделать встроенные изображения-->       
+        <ul>         
+          <li><a href="" aria-label="ссылка на Instagram">Instagram </a></li>
+          <li><a href="" aria-label="ссылка на Twitter">Twitter </a></li>
+          <li><a href="" aria-label="ссылка на Facebook">Facebook </a></li>
+          <li><a href="" aria-label="ссылка на Linkedin">Linkedin </a></li>
+        </ul>
+      </div>
+
+      <div>
+        <b>Подпишитесь на рассылку</b>
+        <!--форма заполнения мейла-->
+        <a href="" class="button primary">Подписаться</a>
+
+      </div>
+
+      <p>2020 | Developed by GoIT Students</p>
+  
+    </footer>
+	 
+  </body>
+
+</html>
+

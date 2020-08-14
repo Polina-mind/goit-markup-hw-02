@@ -1,0 +1,129 @@
+/* цвет основного фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+    --primary-white-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --bg-color: #2F303A;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+/* сброс стилей */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration-line: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.background {
+    background-color: var(--secondary-bg-color);
+}
+
+/* шапка сайта */
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.web-color {
+    color: var(--accent-color);
+}
+
+
+/* навигация */
+.nav-link {
+    color: var(--title-text-color);
+}
+
+.nav-link:hover, 
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav .nav-link.current {
+    color: var(--accent-color);
+}
+
+.auth-link {
+    color: var(--primary-text-color);
+}
+
+.auth-link:hover, 
+.auth-link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* a.hero-wish:hover,
+a.hero-wish:focus {
+    color: var(--primary-text-color);
+} */
+
+/* section */
+.section .section-title {
+    color: var(--title-text-color);
+}
+
+/* 2nd section Features of work */
+.features .title {
+    color: var(--title-text-color);
+}
+
+.features-img:hover {
+    background-color: var(--accent-color);
+}
+
+/* 3d section What are we doing */
+.scope .title {
+    background-color: var(--bg-color);
+    color: var(--primary-white-color);
+}
+
+/* 4d section Our team */
+.team .title {
+    color: var(--title-text-color);
+}
+
+/* button*/
+.button {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.button.secondary {
+    background-color: var(--primary-white-color);
+    color: var(--accent-color);
+}
