@@ -32,7 +32,7 @@ body {
 }
 
 .link {
-    text-decoration-line: none;
+    text-decoration-line: none;    
 }
 
 .hidden {
@@ -219,4 +219,39 @@ address > a {
     font-weight: 700;    
     line-height: 1.14;    
     text-transform: uppercase;
+}
+
+.action-link a {
+    color: var(--primary-white-color);
+}
+
+.action-link a:hover,
+.action-link a:focus {
+    color: var(--accent-color);
+}
+
+/* старница Портфолио */
+
+/* секция Наши работы */
+.work .work-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work .work-type {
+    color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.work .work-text {
+    color: var(--primary-text-color);
+    
+    font-size: 18px;
+    line-height: 1.6;
 }
